@@ -4,13 +4,17 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@my-package/my-lib": "file:../my-package/packages/my-lib/dist"
+  },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@nx/eslint": "20.0.2",
     "@nx/eslint-plugin": "20.0.2",
     "@nx/js": "20.0.2",
     "@nx/rollup": "20.0.2",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "@swc-node/register": "~1.9.1",
     "@swc/cli": "~0.3.12",
     "@swc/core": "~1.5.7",
